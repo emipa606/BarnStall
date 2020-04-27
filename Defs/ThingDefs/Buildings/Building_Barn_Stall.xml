@@ -1,10 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- ++++++++++++++++++++++++++++++++BarnStall++++++++++++++++++++++++++++++++ -->
-  <ThingDef ParentName="FurnitureBase">
+  <ThingDef ParentName="BuildingBase">
     <defName>BarnStall</defName>
+    <thingClass>Building_Bed</thingClass>
     <label>barn stall</label>
     <description>A stall for your barn animals. Fits any animal.</description>
+    <size>(2,2)</size>
+    <passability>PassThroughOnly</passability>
+    <designationCategory>Furniture</designationCategory>
+    <scatterableOnMapGen>false</scatterableOnMapGen>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
     <rotatable>true</rotatable>
     <pathCost>40</pathCost>
     <castEdgeShadows>true</castEdgeShadows>
@@ -19,20 +25,7 @@
       <li>Stony</li>
     </stuffCategories>
     <costStuffCount>75</costStuffCount>
-    <size>(2,2)</size>
-    <thingClass>Building_Bed</thingClass>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.25</fillPercent>
-    <tickerType>Normal</tickerType>
-    <drawerType>RealtimeOnly</drawerType>
-    <passability>PassThroughOnly</passability>
-    <surfaceType>Item</surfaceType>
-    <building>
-      <bed_humanlike>false</bed_humanlike>
-      <bed_showSleeperBody>true</bed_showSleeperBody>
-      <bed_healPerDay>10</bed_healPerDay>
-    </building>
     <statBases>
       <MaxHitPoints>140</MaxHitPoints>
       <Flammability>1.0</Flammability>
@@ -42,5 +35,19 @@
       <Mass>20</Mass>
       <ImmunityGainSpeedFactor>1.5</ImmunityGainSpeedFactor>
     </statBases>
+    <building>
+      <bed_humanlike>false</bed_humanlike>
+      <bed_showSleeperBody>true</bed_showSleeperBody>
+      <bed_healPerDay>10</bed_healPerDay>
+      <sowTag>SupportPlantsOnly</sowTag>
+      <canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <comps>
+      <li Class="CompProperties_AssignableToPawn">
+        <drawAssignmentOverlay>false</drawAssignmentOverlay>
+        <compClass>CompAssignableToPawn_Bed</compClass>
+      </li>
+    </comps>
   </ThingDef>
 </Defs>
