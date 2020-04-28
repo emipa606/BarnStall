@@ -6,7 +6,7 @@
     <thingClass>Building_Bed</thingClass>
     <label>barn stall</label>
     <description>A stall for your barn animals. Fits any animal.</description>
-    <size>(2,2)</size>
+    <size>(1,1)</size>
     <passability>PassThroughOnly</passability>
     <designationCategory>Furniture</designationCategory>
     <scatterableOnMapGen>false</scatterableOnMapGen>
@@ -15,10 +15,11 @@
     <pathCost>40</pathCost>
     <castEdgeShadows>true</castEdgeShadows>
     <graphicData>
-      <texPath>Things/Building/BarnStall</texPath>
+      <texPath>Things/Building/BarnStallMedium</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>2.1,2.1</drawSize>
     </graphicData>
+    <uiIconPath>Things/Building/BarnStallMedium</uiIconPath>
     <stuffCategories>
       <li>Metallic</li>
       <li>Woody</li>
@@ -33,6 +34,56 @@
       <BedRestEffectiveness>1</BedRestEffectiveness>
       <Comfort>0.95</Comfort>
       <Mass>20</Mass>
+      <ImmunityGainSpeedFactor>1.5</ImmunityGainSpeedFactor>
+    </statBases>
+    <building>
+      <bed_humanlike>false</bed_humanlike>
+      <bed_showSleeperBody>true</bed_showSleeperBody>
+      <bed_healPerDay>10</bed_healPerDay>
+      <sowTag>SupportPlantsOnly</sowTag>
+      <canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <comps>
+      <li Class="CompProperties_AssignableToPawn">
+        <drawAssignmentOverlay>false</drawAssignmentOverlay>
+        <compClass>CompAssignableToPawn_Bed</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>BarnStallLarge</defName>
+    <thingClass>Building_Bed</thingClass>
+    <label>barn stall large</label>
+    <description>A large stall for your barn animals. Fits any animal.</description>
+    <size>(1,1)</size>
+    <passability>PassThroughOnly</passability>
+    <designationCategory>Furniture</designationCategory>
+    <scatterableOnMapGen>false</scatterableOnMapGen>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <rotatable>true</rotatable>
+    <pathCost>40</pathCost>
+    <castEdgeShadows>true</castEdgeShadows>
+    <graphicData>
+      <texPath>Things/Building/BarnStallLarge</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>3.1,3.1</drawSize>
+    </graphicData>
+    <uiIconPath>Things/Building/BarnStallLarge</uiIconPath>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>140</costStuffCount>
+    <fillPercent>0.25</fillPercent>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToMake>1000</WorkToMake>
+      <BedRestEffectiveness>1</BedRestEffectiveness>
+      <Comfort>0.95</Comfort>
+      <Mass>40</Mass>
       <ImmunityGainSpeedFactor>1.5</ImmunityGainSpeedFactor>
     </statBases>
     <building>
