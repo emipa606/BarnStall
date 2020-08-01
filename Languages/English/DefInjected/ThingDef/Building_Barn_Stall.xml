@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ++++++++++++++++++++++++++++++++BarnStall++++++++++++++++++++++++++++++++ -->
+
+  <BarnStall.label>barn stall</BarnStall.label>
+  <BarnStall.description>A stall for your barn animals. Fits any animal.</BarnStall.description>
+
+  <BarnStallLarge.label>barn stall large</BarnStallLarge.label>
+  <BarnStallLarge.description>A large stall for your barn animals. Fits any animal.</BarnStallLarge.description>
+
+
+</LanguageData>
