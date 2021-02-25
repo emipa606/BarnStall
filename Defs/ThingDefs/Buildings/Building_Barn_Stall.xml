@@ -30,7 +30,7 @@
     <statBases>
       <MaxHitPoints>140</MaxHitPoints>
       <Flammability>1.0</Flammability>
-      <WorkToMake>600</WorkToMake>
+      <WorkToBuild>600</WorkToBuild>
       <BedRestEffectiveness>1</BedRestEffectiveness>
       <Comfort>0.95</Comfort>
       <Mass>20</Mass>
@@ -80,7 +80,7 @@
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <Flammability>1.0</Flammability>
-      <WorkToMake>1000</WorkToMake>
+      <WorkToBuild>1000</WorkToBuild>
       <BedRestEffectiveness>1</BedRestEffectiveness>
       <Comfort>0.95</Comfort>
       <Mass>40</Mass>
