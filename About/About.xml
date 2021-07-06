@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Barn Stall (Continued)</name>
   <packageId>Mlie.BarnStall</packageId>
@@ -7,6 +7,7 @@
   <supportedVersions>
     <li>1.1</li>
     <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
   <modDependencies />
   <loadAfter />
@@ -29,6 +30,7 @@ https://ludeon.com/forums/index.php?topic=25580.msg260001#msg260001
 
 A simple stall for your barn animals to use. Stats are slightly better that the animal bed and it looks better. ;)
 Straw floor in the preview is from T's-More Floors and are not included in this mod
+
 |
 A simple stall for your barn animals to use. Stats are slightly better that the animal bed and it looks better. ;)
 Straw floor in the preview is from T's-More Floors and are not included in this mod
@@ -44,4 +46,3 @@ Straw floor in the preview is from T's-More Floors and are not included in this 
 [/list]
 </description>
 </ModMetaData>
-
