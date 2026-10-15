@@ -28,4 +28,4 @@ Straw floor in the preview is from T's-More Floors and are not included in this 
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/BarnStall?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2071768301) | tags: animals, beds
+[![Image](https://img.shields.io/github/v/release/emipa606/BarnStall?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2071768301) | animals, beds
